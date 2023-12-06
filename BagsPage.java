@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.io.IOException;
 import java.util.List;
 
 public class BagsPage {
@@ -14,7 +13,7 @@ public class BagsPage {
     {
         this.driver=driver;
     }
-    public void selectBag() throws IOException {
+    public void selectBag() {
         List<WebElement> productItemName = driver.findElements(itemName);
         productItemName.get(10).click();
 
