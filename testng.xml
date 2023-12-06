@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test
+          name="Project 1">
+        <classes>
+            <class name="com.delta.mansi.Assingments.Project1.TestMagentoSoftwareBoard">
+
+            </class>
+        </classes>
+    </test>
+</suite>
